@@ -15,7 +15,6 @@ export default function(app: App) {
 	app.component('WidgetCalendar', defineAsyncComponent(() => import('./WidgetCalendar.vue')));
 	app.component('WidgetRss', defineAsyncComponent(() => import('./WidgetRss.vue')));
 	app.component('WidgetRssTicker', defineAsyncComponent(() => import('./WidgetRssTicker.vue')));
-	app.component('WidgetTrends', defineAsyncComponent(() => import('./WidgetTrends.vue')));
 	app.component('WidgetClock', defineAsyncComponent(() => import('./WidgetClock.vue')));
 	app.component('WidgetActivity', defineAsyncComponent(() => import('./WidgetActivity.vue')));
 	app.component('WidgetPhotos', defineAsyncComponent(() => import('./WidgetPhotos.vue')));
@@ -35,6 +34,7 @@ export default function(app: App) {
 	app.component('WidgetUserList', defineAsyncComponent(() => import('./WidgetUserList.vue')));
 	app.component('WidgetClicker', defineAsyncComponent(() => import('./WidgetClicker.vue')));
 	app.component('WidgetBirthdayFollowings', defineAsyncComponent(() => import('./WidgetBirthdayFollowings.vue')));
+	app.component('WidgetChat', defineAsyncComponent(() => import('./WidgetChat.vue')));
 }
 
 // 連合関連のウィジェット（連合無効時に隠す）
@@ -45,31 +45,33 @@ export const federationWidgets = [
 
 export const widgets = [
 	'profile',
-	'instanceInfo',
-	'memo',
-	'notifications',
-	'timeline',
+	// 'instanceInfo',
+	// 'memo',
+	// 'notifications',
+	// 'timeline',
 	'calendar',
-	'rss',
-	'rssTicker',
-	'trends',
-	'clock',
-	'activity',
-	'photos',
-	'digitalClock',
-	'unixClock',
-	'postForm',
-	'slideshow',
-	'serverMetric',
-	'onlineUsers',
-	'jobQueue',
-	'button',
-	'aiscript',
-	'aiscriptApp',
-	'aichan',
-	'userList',
-	'clicker',
-	'birthdayFollowings',
+	// 'rss',
+	// 'rssTicker',
+	// 'trends',
+	'clock', 
+	// 'activity',
+	// 'photos',
+	// 'digitalClock',
+	// 'unixClock',
+	// 'postForm',
+	// 'slideshow',
+	// 'serverMetric',
+	// 'onlineUsers',
+	// 'jobQueue',
+	// 'button',
+	// 'aiscript',
+	// 'aiscriptApp',
+	// 'aichan',
+	// 'userList',
+	// 'clicker',
+	// 'birthdayFollowings',
+	// 'chat',
 
-	...federationWidgets,
+	// ...federationWidgets,
 ];
+

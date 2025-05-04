@@ -10,6 +10,7 @@ import { MiUser } from './User.js';
 import { MiChannel } from './Channel.js';
 import type { MiDriveFile } from './DriveFile.js';
 
+@Index(['userId', 'id'])
 @Entity('note')
 export class MiNote {
 	@PrimaryColumn(id())
@@ -65,7 +66,6 @@ export class MiNote {
 	})
 	public cw: string | null;
 
-	@Index()
 	@Column({
 		...id(),
 		comment: 'The ID of author.',
@@ -229,7 +229,6 @@ export class MiNote {
 		comment: '[Denormalized]',
 	})
 	public renoteUserHost: string | null;
-	//#endregion
 
 	constructor(data: Partial<MiNote>) {
 		if (data == null) return;

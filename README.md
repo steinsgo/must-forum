@@ -1,64 +1,49 @@
-#  MustForum – A Lightweight Campus Community Platform
+<div align="center">
+<a href="https://misskey-hub.net">
+	<img src="./assets/title_float.svg" alt="Misskey logo" style="border-radius:50%" width="300"/>
+</a>
 
-> MustForum is a lightweight forum system designed for universities and colleges. Inspired by platforms like **Misskey** and **Kedaquan**, it enables real-name or anonymous posting, commenting, and basic moderation. It’s tailored for student expression, campus events, and internal discussion.
+**🌎 **Misskey** is an open source, federated social media platform that's free forever! 🚀**
 
----
-
-##  Overview
-
-MustForum focuses on creating a safe, intuitive, and dynamic communication platform within a school environment.
-
--  Real-name and anonymous posting options  
--  Lightweight interaction (posts & comments)  
--  Topic-based content sections and keyword search  
--  Core moderation tools (reporting, banning, content control)  
-
-Built with a modern full-stack architecture, it's easy to deploy for campus clubs, classes, or internal forums.
+[Learn more](https://misskey-hub.net/)
 
 ---
 
-##  Tech Stack
+<a href="https://misskey-hub.net/servers/">
+		<img src="https://custom-icon-badges.herokuapp.com/badge/find_an-instance-acea31?logoColor=acea31&style=for-the-badge&logo=misskey&labelColor=363B40" alt="find an instance"/></a>
 
-| Layer         | Tech Used                         |
-|---------------|-----------------------------------|
-| Frontend      | Vue 3 + Vite + Tailwind CSS       |
-| Backend       | Node.js + Express + TypeScript    |
-| Database      | MongoDB                           |
-| Deployment    | Docker / Docker Compose           |
-| Team Tools    | Leangoo + GitHub Projects         |
+<a href="https://misskey-hub.net/docs/for-admin/install/guides/">
+		<img src="https://custom-icon-badges.herokuapp.com/badge/create_an-instance-FBD53C?logoColor=FBD53C&style=for-the-badge&logo=server&labelColor=363B40" alt="create an instance"/></a>
 
----
+<a href="./CONTRIBUTING.md">
+		<img src="https://custom-icon-badges.herokuapp.com/badge/become_a-contributor-A371F7?logoColor=A371F7&style=for-the-badge&logo=git-merge&labelColor=363B40" alt="become a contributor"/></a>
 
-##  Core Features
+<a href="https://discord.gg/Wp8gVStHW3">
+		<img src="https://custom-icon-badges.herokuapp.com/badge/join_the-community-5865F2?logoColor=5865F2&style=for-the-badge&logo=discord&labelColor=363B40" alt="join the community"/></a>
 
-- ✅ User registration & login (invite code supported)  
-- ✅ Personal profile management (avatar, nickname, updates)  
-- ✅ Post creation, viewing, and detailed display  
-- ✅ Commenting system  
-- ✅ Markdown support for posts  
-- ✅ Post/comment deletion & reporting  
-- ✅ Admin panel: view reports, block users/IPs, view user activity  
-- ✅ Role-based permission & persistent data storage  
+<a href="https://www.patreon.com/syuilo">
+		<img src="https://custom-icon-badges.herokuapp.com/badge/become_a-patron-F96854?logoColor=F96854&style=for-the-badge&logo=patreon&labelColor=363B40" alt="become a patron"/></a>
 
----
+</div>
 
-##  Project Progress
+## Thanks
 
-| Sprint | Focus Area                          | Status     |
-|--------|--------------------------------------|------------|
-| Sprint 1 | Product definition, competitor analysis, architecture planning |  Completed |
-| Sprint 2 | Project setup, login functionality  |  Completed |
-| Sprint 3 | Posting, browsing, commenting flow  |  Completed |
-| Sprint 4 | Reporting system, moderation tools  |  In Progress |
+<a href="https://sentry.io/"><img src="https://github.com/misskey-dev/misskey/assets/4439005/98576556-222f-467a-94be-e98dbda1d852" height="30" alt="Sentry" /></a>
 
----
+Thanks to [Sentry](https://sentry.io/) for providing the error tracking platform that helps us catch unexpected errors.
 
-##  Project Structure
+<a href="https://www.chromatic.com/"><img src="https://user-images.githubusercontent.com/321738/84662277-e3db4f80-af1b-11ea-88f5-91d67a5e59f6.png" height="30" alt="Chromatic" /></a>
 
-```bash
-mustforum/
-├── frontend/       # Vue 3 frontend project
-├── backend/        # Node.js + TypeScript backend
-├── docker/         # Docker deployment configs
-├── docs/           # Research reports, planning docs
-└── README.md       # Project intro
+Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testing platform that helps us review UI changes and catch visual regressions.
+
+<a href="https://about.codecov.io/for/open-source/"><img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/sentry-cobranding/logos/codecov-by-sentry-logo.svg" height="30" alt="Codecov" /></a>
+
+Thanks to [Codecov](https://about.codecov.io/for/open-source/) for providing the code coverage platform that helps us improve our test coverage.
+
+<a href="https://crowdin.com/"><img src="https://user-images.githubusercontent.com/20679825/230709597-1299a011-171a-4294-a91e-355a9b37c672.svg" height="30" alt="Crowdin" /></a>
+
+Thanks to [Crowdin](https://crowdin.com/) for providing the localization platform that helps us translate Misskey into many languages.
+
+<a href="https://hub.docker.com/"><img src="https://user-images.githubusercontent.com/20679825/230148221-f8e73a32-a49b-47c3-9029-9a15c3824f92.png" height="30" alt="Docker" /></a>
+
+Thanks to [Docker](https://hub.docker.com/) for providing the container platform that helps us run Misskey in production.

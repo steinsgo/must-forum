@@ -1,4 +1,4 @@
-# Reporting Security Issues first by tsy
+# Reporting Security Issues
 
 If you discover a security issue in Misskey, please report it by **[this form](https://github.com/misskey-dev/misskey/security/advisories/new)**.
 
