@@ -113,12 +113,14 @@ const menuDef = computed<SuperMenuDef[]>(() => [{
 		text: i18n.ts.invite,
 		to: '/admin/invites',
 		active: currentPage.value?.route.name === 'invites',
-	}, {
-		icon: 'ti ti-badges',
-		text: i18n.ts.roles,
-		to: '/admin/roles',
-		active: currentPage.value?.route.name === 'roles',
-	}, {
+	}, 
+	// {
+	// 	icon: 'ti ti-badges',
+	// 	text: i18n.ts.roles,
+	// 	to: '/admin/roles',
+	// 	active: currentPage.value?.route.name === 'roles',
+	// }, 
+	{
 		icon: 'ti ti-icons',
 		text: i18n.ts.customEmojis,
 		to: '/admin/emojis',
@@ -128,42 +130,49 @@ const menuDef = computed<SuperMenuDef[]>(() => [{
 		text: i18n.ts.customEmojis + '(beta)',
 		to: '/admin/emojis2',
 		active: currentPage.value?.route.name === 'emojis2',
-	}, {
-		icon: 'ti ti-sparkles',
-		text: i18n.ts.avatarDecorations,
-		to: '/admin/avatar-decorations',
-		active: currentPage.value?.route.name === 'avatarDecorations',
-	}, {
-		icon: 'ti ti-whirl',
-		text: i18n.ts.federation,
-		to: '/admin/federation',
-		active: currentPage.value?.route.name === 'federation',
-	}, {
-		icon: 'ti ti-clock-play',
-		text: i18n.ts.federationJobs,
-		to: '/admin/federation-job-queue',
-		active: currentPage.value?.route.name === 'federationJobQueue',
-	}, {
-		icon: 'ti ti-clock-play',
-		text: i18n.ts.jobQueue,
-		to: '/admin/job-queue',
-		active: currentPage.value?.route.name === 'jobQueue',
-	}, {
+	}, 
+	// {
+	// 	icon: 'ti ti-sparkles',
+	// 	text: i18n.ts.avatarDecorations,
+	// 	to: '/admin/avatar-decorations',
+	// 	active: currentPage.value?.route.name === 'avatarDecorations',
+	// }, 
+	// {
+	// 	icon: 'ti ti-whirl',
+	// 	text: i18n.ts.federation,
+	// 	to: '/admin/federation',
+	// 	active: currentPage.value?.route.name === 'federation',
+	// }, 
+	// {
+	// 	icon: 'ti ti-clock-play',
+	// 	text: i18n.ts.federationJobs,
+	// 	to: '/admin/federation-job-queue',
+	// 	active: currentPage.value?.route.name === 'federationJobQueue',
+	// }, {
+	// 	icon: 'ti ti-clock-play',
+	// 	text: i18n.ts.jobQueue,
+	// 	to: '/admin/job-queue',
+	// 	active: currentPage.value?.route.name === 'jobQueue',
+	// }, 
+	{
 		icon: 'ti ti-cloud',
 		text: i18n.ts.files,
 		to: '/admin/files',
 		active: currentPage.value?.route.name === 'files',
-	}, {
-		icon: 'ti ti-speakerphone',
-		text: i18n.ts.announcements,
-		to: '/admin/announcements',
-		active: currentPage.value?.route.name === 'announcements',
-	}, {
-		icon: 'ti ti-ad',
-		text: i18n.ts.ads,
-		to: '/admin/ads',
-		active: currentPage.value?.route.name === 'ads',
-	}, {
+	}, 
+	// {
+	// 	icon: 'ti ti-speakerphone',
+	// 	text: i18n.ts.announcements,
+	// 	to: '/admin/announcements',
+	// 	active: currentPage.value?.route.name === 'announcements',
+	// }, 
+	// {
+	// 	icon: 'ti ti-ad',
+	// 	text: i18n.ts.ads,
+	// 	to: '/admin/ads',
+	// 	active: currentPage.value?.route.name === 'ads',
+	// }, 
+	{
 		icon: 'ti ti-exclamation-circle',
 		text: i18n.ts.abuseReports,
 		to: '/admin/abuses',
@@ -176,57 +185,68 @@ const menuDef = computed<SuperMenuDef[]>(() => [{
 	}],
 }, {
 	title: i18n.ts.settings,
-	items: [{
-		icon: 'ti ti-settings',
-		text: i18n.ts.general,
-		to: '/admin/settings',
-		active: currentPage.value?.route.name === 'settings',
-	}, {
-		icon: 'ti ti-paint',
-		text: i18n.ts.branding,
-		to: '/admin/branding',
-		active: currentPage.value?.route.name === 'branding',
-	}, {
+	items: [
+	// 	{
+	// 	icon: 'ti ti-settings',
+	// 	text: i18n.ts.general,
+	// 	to: '/admin/settings',
+	// 	active: currentPage.value?.route.name === 'settings',
+	// },
+	//  {
+	// 	icon: 'ti ti-paint',
+	// 	text: i18n.ts.branding,
+	// 	to: '/admin/branding',
+	// 	active: currentPage.value?.route.name === 'branding',
+	// }, 
+	{
 		icon: 'ti ti-shield',
 		text: i18n.ts.moderation,
 		to: '/admin/moderation',
 		active: currentPage.value?.route.name === 'moderation',
-	}, {
-		icon: 'ti ti-mail',
-		text: i18n.ts.emailServer,
-		to: '/admin/email-settings',
-		active: currentPage.value?.route.name === 'email-settings',
-	}, {
-		icon: 'ti ti-cloud',
-		text: i18n.ts.objectStorage,
-		to: '/admin/object-storage',
-		active: currentPage.value?.route.name === 'object-storage',
-	}, {
+	}, 
+	// {
+	// 	icon: 'ti ti-mail',
+	// 	text: i18n.ts.emailServer,
+	// 	to: '/admin/email-settings',
+	// 	active: currentPage.value?.route.name === 'email-settings',
+	// }, 
+	// {
+	// 	icon: 'ti ti-cloud',
+	// 	text: i18n.ts.objectStorage,
+	// 	to: '/admin/object-storage',
+	// 	active: currentPage.value?.route.name === 'object-storage',
+	// }, 
+	{
 		icon: 'ti ti-lock',
 		text: i18n.ts.security,
 		to: '/admin/security',
 		active: currentPage.value?.route.name === 'security',
-	}, {
-		icon: 'ti ti-planet',
-		text: i18n.ts.relays,
-		to: '/admin/relays',
-		active: currentPage.value?.route.name === 'relays',
-	}, {
-		icon: 'ti ti-link',
-		text: i18n.ts.externalServices,
-		to: '/admin/external-services',
-		active: currentPage.value?.route.name === 'external-services',
-	}, {
-		icon: 'ti ti-webhook',
-		text: 'Webhook',
-		to: '/admin/system-webhook',
-		active: currentPage.value?.route.name === 'system-webhook',
-	}, {
-		icon: 'ti ti-bolt',
-		text: i18n.ts.performance,
-		to: '/admin/performance',
-		active: currentPage.value?.route.name === 'performance',
-	}],
+	}, 
+	// {
+	// 	icon: 'ti ti-planet',
+	// 	text: i18n.ts.relays,
+	// 	to: '/admin/relays',
+	// 	active: currentPage.value?.route.name === 'relays',
+	// }, 
+	// {
+	// 	icon: 'ti ti-link',
+	// 	text: i18n.ts.externalServices,
+	// 	to: '/admin/external-services',
+	// 	active: currentPage.value?.route.name === 'external-services',
+	// }, 
+	// {
+	// 	icon: 'ti ti-webhook',
+	// 	text: 'Webhook',
+	// 	to: '/admin/system-webhook',
+	// 	active: currentPage.value?.route.name === 'system-webhook',
+	// }, 
+	// {
+	// 	icon: 'ti ti-bolt',
+	// 	text: i18n.ts.performance,
+	// 	to: '/admin/performance',
+	// 	active: currentPage.value?.route.name === 'performance',
+	// }
+],
 }, {
 	title: i18n.ts.info,
 	items: [{

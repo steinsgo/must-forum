@@ -131,7 +131,7 @@ export const PREF_DEF = {
 			'chat',
 			//'-',
 			//'explore',
-			'announcements',
+			//'announcements',
 			//'channels',
 			// 'search', 
 			//'-',
